@@ -26,3 +26,6 @@ python train.py --cfg <name of config> --gpu <which gpu to run on>
 ```
 
 To edit the model paramters you can change the config in train_config.py. Make sure that the config points to the dataset you generated earlier.
+
+The website associated with the repo can be found [here](https://jmcasebeer.github.io/projects/camse/).
+
