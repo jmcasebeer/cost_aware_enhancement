@@ -4,19 +4,19 @@ This repo contains the code to reproduce our results and experiments. Our datase
 
 ## Dataset Setup
 
-First, you will need to clonse the microsoft scalable noisy speech dataset with:
+First, you will need to clone the microsoft scalable noisy speech dataset with:
 
 ```bash
 git clone https://github.com/microsoft/MS-SNSD.git
 ```
-Then, you will need to edit the path to the microsoft dataset in the desired config data_gen_config.py file. Once this is done, you can run the data generation script with:
+Then, you will need to edit the path to the microsoft dataset in the desired config within the data_gen_config.py file. Once this is done, you can run the data generation script with:
 
 
 ```bash
 python data_gen.py --cfg <name of config>
 ```
 
-This can take a while to run. Once it has finished generating then you need to edit the paths in your desired config in train_config.py to point to this new dataset. 
+This can take a while to run. Once it has finished generating then you need to edit the paths in your config in train_config.py to point to this new dataset. 
 
 ## Model Training
 The model can then be trained with:
