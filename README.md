@@ -1,4 +1,4 @@
-# Communication Aware Microphone Selection For Neural Speech Enhancement with Ad-hoc Microphone Arrays
+# Communication-Cost Aware Microphone Selection For Neural Speech Enhancement with Ad-hoc Microphone Arrays
 
 This repo contains the code to reproduce our results and experiments. Our dataset is based off of the [microsoft scalable noisy speech dataset](https://github.com/microsoft/MS-SNSD).
 
